@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <i class="ri-arrow-left-line"></i>
+        <h1>Your payment details</h1>
+        <i class="ri-shopping-cart-line"></i>
+    </nav>
+        <div class="container">
+            <div class="left">
+                <h3>Your cart</h3>
+            <div class="lefttop">
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Samba_OG_Shoes_White_B75806_01_standard.jpg" alt="">
+                <div class="details">
+                    <h3>Adidas samba OG</h3>
+                    <p>Size: UK8</p>
+                    <p>Rs. 12999</p>
+                </div>
+            </div>  
+            <hr>
+
+            <div class="leftbottom">
+                <div class="lbl">
+                    <p>MRP :</p>
+                    <p>Discount :</p>
+                    <p>Shipping fee :</p>
+                    <h4>TOTAL :</h4>
+                </div>
+                <div class="lbr">
+                    <p>Rs. 12,999</p>
+                    <p>Rs. 1,999</p>
+                    <p>Rs. 120</p>
+                    <h4>Rs. 11,120</h4>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="righttop">
+            <h1>Card details</h1>
+            <img src="kisspng-mastercard-visa-credit-card-paypal-logo-equipos-médicos-imcoseb-5b62dbe93f8356.3879069615332054812602.png" alt="">
+            </div>
+            <div class="rightbottom">
+                <form>
+                    <p>Card number</p>
+                    <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                        autocomplete="cc-number" maxlength="19" 
+                        placeholder="xxxx xxxx xxxx xxxx" required>
+                        <p>Card holder's name</p>
+                <input id="cardholder" placeholder=" CARD HOLDER" type="text" required />
+                <p>Expiry</p>
+                <input id="exp" placeholder="MM/YY" type="text" maxlength="5" required />
+                <p>CVV</p>
+                <input id="cvv" type="password" name="" placeholder="***"  maxlength="3" inputmode="numeric">
+                <br>
+                <button id="btn"> Proceed to pay</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
